@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.header"
+    },
+    "Twocolumnblock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.two-column-block"
+    },
+    "Carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.carousel"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "TwoBlockHeader": {
+      "type": "string"
+    }
+  }
+}
